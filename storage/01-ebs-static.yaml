@@ -42,7 +42,7 @@ spec:
     - name: persistent-storage
       mountPath: /usr/share/nginx/html #nginx html path
   nodeSelector:
-    topology.kubernetes.io/zone: us-east-1c
+    topology.kubernetes.io/zone: us-east-1c #we can select wer our pod can go , in us-east-1c we created EBS
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
