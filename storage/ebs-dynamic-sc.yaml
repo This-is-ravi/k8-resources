@@ -1,4 +1,4 @@
-#admin task he wil create pv and volume
+#admin task he wil create pv and volume, admin wil create this SC
 apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
